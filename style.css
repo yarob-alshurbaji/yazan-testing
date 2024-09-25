@@ -6,9 +6,14 @@
 .parent {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .parent h1 {
     color: crimson;
+}
+.parent p {
+    font-size: 25px;
+    color: purple;
 }
